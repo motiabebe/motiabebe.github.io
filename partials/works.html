@@ -1,0 +1,83 @@
+<section id="works-section" class="bg-black text-light" data-theme="dark">
+<!-- <section id="works-section" class="bg-black text-light py-5" data-theme="dark"> -->
+    <div class="container px-4 px-md-5 py-5 my-5">
+        <div class="row mb-4 align-items-end">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h2 class="display-5 fw-bold font-monospace text-white">Selected Works</h2>
+                <p class="lead opacity-75">Engineering digital solutions across various domains.</p>
+            </div>
+            <div class="col-lg-5 text-center text-lg-end mt-3 mt-lg-0">
+                <div id="filter-container" class="d-flex flex-wrap justify-content-center justify-content-lg-end gap-2 mb-2">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center d-md-none mb-3">
+            <span class="badge rounded-pill border border-light text-light opacity-50 fw-normal px-3 py-2 animate__animated animate__pulse animate__infinite">
+                Swipe <i class="fas fa-arrow-right ms-1"></i>
+            </span>
+        </div>
+        <div id="works-grid" class="row g-4 flex-nowrap flex-md-wrap overflow-x-auto mobile-scroll-track pb-3">
+            <div class="col-12 text-center py-5">
+                <div class="spinner-border text-light" role="status"></div>
+            </div>
+        </div>
+        <template id="works-template">
+            {{#projects}}
+            <div class="col-10 col-md-6 col-lg-6 project-item scroll-snap-card animate__animated animate__fadeIn">
+                <div class="work-card text-white p-4 h-100 d-flex flex-column justify-content-between position-relative overflow-hidden"
+                     data-tilt data-tilt-max="4" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1"
+                     style="background: linear-gradient(135deg, #121212 0%, #1e1e1e 100%); border: 1px solid #333; border-radius: 1.2rem;">
+        
+                    <div class="position-relative z-2 text-center text-md-start">
+        
+                        <div class="d-flex justify-content-center justify-content-md-start align-items-center flex-wrap gap-2 mb-3">
+                            {{#archived}}
+                                <span class="badge bg-warning text-dark px-2 py-1">Archived</span>
+                            {{/archived}}
+                            {{#openSource}}
+                                <span class="badge bg-success px-2 py-1"><i class="fab fa-osi me-1"></i> Open Source</span>
+                            {{/openSource}}
+                            <span class="badge rounded-pill px-3 py-1 text-light fw-normal" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15);">
+                                {{category}}
+                            </span>
+                        </div>
+        
+                        <h3 class="h4 fw-bold mb-2 font-monospace">{{title}}</h3>
+                        <small class="opacity-50 font-monospace d-block mb-3" style="font-size: 0.75rem;">{{date}}</small>
+        
+                        <p class="opacity-75 small mb-4 px-3 px-md-0" style="line-height: 1.6;">{{description}}</p>
+        
+                        <div class="mb-4 d-flex justify-content-center justify-content-md-start flex-wrap gap-2">
+                            {{#tech}}
+                            <span class="text-light fw-normal font-monospace" style="font-size: 0.75rem;">#{{.}}</span>
+                            {{/tech}}
+                        </div>
+                    </div>
+                    <div class="mt-auto d-flex flex-wrap justify-content-center justify-content-md-start gap-2 z-2 position-relative">
+                        {{#links.primary}}
+                            <a href="{{url}}" target="_blank" class="btn btn-sm btn-light rounded-pill px-3 py-2 fw-bold text-dark d-flex align-items-center">
+                                {{#icon}}<i class="{{icon}} me-2"></i>{{/icon}}
+                                {{text}}
+                                {{^icon}}<i class="fas fa-arrow-right ms-2"></i>{{/icon}}
+                            </a>
+                        {{/links.primary}}
+                        {{#links.secondary}}
+                            <a href="{{url}}" target="_blank" class="btn btn-sm btn-outline-light rounded-pill px-3 py-2 d-flex align-items-center">
+                                <i class="{{icon}} me-2"></i> {{text}}
+                            </a>
+                        {{/links.secondary}}
+        
+                        {{#inactive}}
+                            {{^links.secondary}}
+                                <span class="badge border border-secondary rounded-pill px-3 py-2 d-flex align-items-center">Offline</span>
+                            {{/links.secondary}}
+                        {{/inactive}}
+                    </div>
+                </div>
+            </div>
+            {{/projects}}
+        </template>
+    </div>
+</section>
+
+

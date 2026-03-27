@@ -1,0 +1,78 @@
+{
+    "designs": [
+        {
+            "title": "Ticker.et Branding",
+            "type": "Branding",
+            "src": "img/graphics_design/Logo_Ticker-min.png",
+            "client": "Self",
+            "description": "Institutional-grade financial terminal branding.",
+            "year": "2026",
+            "isPersonal": true,
+            "featured": true
+        },
+        {
+            "title": "Ibex Waves Logo",
+            "type": "Branding",
+            "src": "img/graphics_design/Logo_Ibex-min.png",
+            "client": "Self",
+            "description": "Modern wave-inspired startup identity.",
+            "year": "2025",
+            "isPersonal": true,
+            "featured": true
+        },
+        {
+            "title": "Adwavic Logo",
+            "type": "Branding",
+            "src": "img/graphics_design/Logo_Adwavic-min.png",
+            "client": "Adwavic",
+            "description": "Geometric logo for a digital agency.",
+            "year": "2023",
+            "isPersonal": false
+        },
+        {
+            "title": "WPP Branding",
+            "type": "Branding",
+            "src": "img/graphics_design/Logo_WPP-min.png",
+            "client": "WPP",
+            "description": "Professional corporate identity refresh.",
+            "year": "2022",
+            "isPersonal": false
+        },
+        {
+            "title": "Love Her",
+            "type": "Music",
+            "src": "img/graphics_design/Cover_LoveHer-min.jpg",
+            "client": "Artist",
+            "description": "Atmospheric lo-fi album cover art.",
+            "year": "2021",
+            "isPersonal": false
+        },
+        {
+            "title": "Feshta",
+            "type": "Music",
+            "src": "img/graphics_design/Cover_Feshta-min.jpg",
+            "client": "Artist",
+            "description": "Vibrant, high-energy single cover.",
+            "year": "2022",
+            "isPersonal": false
+        },
+        {
+            "title": "Natty Social",
+            "type": "Social",
+            "src": "img/graphics_design/IG_Natty-min.png",
+            "client": "Natty",
+            "description": "Minimalist Instagram content series.",
+            "year": "2024",
+            "isPersonal": false
+        },
+        {
+            "title": "Jordan Poster",
+            "type": "Social",
+            "src": "img/graphics_design/IG_Jordan-min.png",
+            "client": "Personal",
+            "description": "Experimental typographic poster design.",
+            "year": "2024",
+            "isPersonal": true
+        }
+    ]
+}

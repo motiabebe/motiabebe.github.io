@@ -1,0 +1,83 @@
+<!-- <section id="photography-section" class="py-5 my-5"> -->
+<section id="photography-section" class="bg-light text-dark py-5" data-theme="light">
+    <div class="container px-4 px-md-5 py-5">
+        <!-- Header & Stats (Hardcoded) -->
+        <div class="row align-items-center mb-4 gy-4 animate__animated animate__fadeIn">
+            <div class="col-lg-6 text-center text-lg-start">
+                <h2 class="display-5 fw-bold font-monospace">Photography</h2>
+                <p class="lead opacity-75">Capturing the essence of Addis Ababa and beyond. My work is freely available on Unsplash for personal and commercial use. My work has been utilized by global institutions, news outlets, and creative agencies.</p>
+                <div class="d-flex justify-content-center justify-content-lg-start gap-4 mt-4">
+                    <div>
+                        <span class="h3 fw-bold d-block mb-0" id="photo-views">0</span>
+                        <small class="text-muted text-uppercase fw-bold" style="letter-spacing: 1px;">Total Views</small>
+                    </div>
+                    <div>
+                        <span class="h3 fw-bold d-block mb-0" id="photo-downloads">0</span>
+                        <small class="text-muted text-uppercase fw-bold" style="letter-spacing: 1px;">Downloads</small>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Filter & Press Logos -->
+            <div class="col-lg-6 text-center text-lg-end">
+                <!-- Photography Filter Container -->
+                <div id="photo-filter" class="d-flex flex-wrap justify-content-center justify-content-lg-end gap-2 mb-4">
+                    <!-- Pills injected by main.js -->
+                </div>
+
+                <p class="small fw-bold text-muted mb-3" style="letter-spacing: 2px;">FEATURED ON</p>
+                <div class="d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center gap-4">
+                    <img src="img/logos/Cambridge_Enterprise.svg" alt="Cambridge Enterprise" style="height: 25px; width: auto;" class="grayscale-filter opacity-50 hover-opacity-100 transition-fade">
+                    <img src="img/logos/techcabal.png" alt="Techcabal" style="height: 25px; width: auto;" class="grayscale-filter opacity-50 hover-opacity-100 transition-fade">
+                    <img src="img/logos/buzzfeed.png" alt="Buzzfeed" style="height: 25px; width: auto;" class="grayscale-filter opacity-50 hover-opacity-100 transition-fade">
+                    <img src="img/logos/hiil.jpg" alt="HiiL" style="height: 25px; width: auto;" class="grayscale-filter opacity-50 hover-opacity-100 transition-fade">
+                    <img src="img/logos/nhh.png" alt="NHH Norway" style="height: 25px; width: auto;" class="grayscale-filter opacity-50 hover-opacity-100 transition-fade">
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center d-md-none mb-4">
+            <span class="badge rounded-pill border border-dark text-dark opacity-50 fw-normal px-3 py-2 animate__animated animate__pulse animate__infinite">
+                Swipe <i class="fas fa-arrow-right ms-1"></i>
+            </span>
+        </div>
+
+        <!-- The Gallery Grid (Target for Mustache) -->
+        <div id="photo-gallery" class="masonry-grid pb-3">
+            <div class="col-12 text-center py-5 w-100">
+                <div class="spinner-border text-dark" role="status"></div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="https://unsplash.com/@thatboymoti" target="_blank" class="btn btn-outline-dark rounded-pill px-5 py-3 fw-bold shadow-sm">
+                <i class="fab fa-unsplash me-2"></i> View more on Unsplash
+            </a>
+        </div>
+    </div>
+
+    <!-- MUSTACHE TEMPLATE -->
+    <template id="photo-template">
+        {{#photos}}
+        <div class="masonry-item mb-4 scroll-snap-card animate__animated animate__fadeIn">
+            <div class="photo-card position-relative overflow-hidden rounded-4 shadow-sm">
+                <img src="{{src}}" alt="{{title}}" class="img-fluid w-100 lazy-load" loading="lazy">
+                <div class="photo-overlay d-flex flex-column justify-content-between p-3 p-md-4">
+                    <div class="text-end">
+                        {{#featuredBy}}
+                            <span class="badge bg-light text-dark shadow-sm mb-1 fw-bold" style="font-size: 0.65rem;">Featured by {{featuredBy}}</span>
+                        {{/featuredBy}}
+                    </div>
+                    <div class="mt-auto">
+                        <span class="badge bg-dark text-white font-monospace mb-2 px-2 py-1 shadow-sm" style="font-size: 0.6rem;">{{category}}</span>
+                        <p class="text-white fw-bold mb-1">{{title}}</p>
+                        <span class="badge bg-light text-dark font-monospace px-3 py-2 rounded-pill shadow-sm" style="font-size: 0.7rem;">
+                            <i class="fas fa-location-dot me-1 text-danger"></i> {{location}}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/photos}}
+    </template>
+</section>

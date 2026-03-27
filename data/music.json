@@ -1,0 +1,122 @@
+{
+    "platforms": [
+        {
+            "name": "Spotify",
+            "url": "https://open.spotify.com/artist/3yBBNv38tZNePMsahku2Vp",
+            "icon": "fab fa-spotify"
+        },
+        {
+            "name": "Apple Music",
+            "url": "https://music.apple.com/artist/moti-abebe",
+            "icon": "fab fa-apple"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://youtube.com/channel/UC7E-O7dSrKBlcylm4oYQF4A",
+            "icon": "fab fa-youtube"
+        }
+    ],
+    "featured": {
+        "title": "Something Called Fun",
+        "artist": "Moti Abebe & [Guest Artist]",
+        "roles": [
+            "Produced",
+            "Mixed",
+            "Mastered"
+        ],
+        "cover": "",
+        "url": "https://youtu.be/g5cVfozbq4k",
+        "year": "2021"
+    },
+    "discography": [
+        {
+            "title": "Iyyoolee",
+            "artist": "Gutu Abera",
+            "type": "Remix",
+            "roles": [
+                "Produced",
+                "Mixed",
+                "Mastered"
+            ],
+            "cover": "",
+            "url": "https://youtu.be/Idi5LswTq-8",
+            "year": "2025",
+            "isPersonal": true,
+            "client": "Personal"
+        },
+        {
+            "title": "Major Promise",
+            "artist": "Samson Verses",
+            "type": "Original Release",
+            "roles": [
+                "Co-Produced",
+                "Mixed",
+                "Mastered"
+            ],
+            "cover": "",
+            "url": "https://www.youtube.com/watch?v=y-WTGQVTGFc",
+            "year": "2024",
+            "isPersonal": false,
+            "client": "Samson Verses"
+        },
+        {
+            "title": "No Sleep",
+            "artist": "Crooked Colours",
+            "type": "Remix",
+            "roles": [
+                "Produced",
+                "Mixed",
+                "Mastered"
+            ],
+            "cover": "",
+            "url": "https://www.youtube.com/watch?v=LTKTL00EGzk",
+            "year": "2023",
+            "isPersonal": true,
+            "client": "Personal"
+        },
+        {
+            "title": "OCD",
+            "artist": "Samson Verses",
+            "type": "Original Release",
+            "roles": [
+                "Co-Produced",
+                "Mixed",
+                "Mastered"
+            ],
+            "cover": "",
+            "url": "https://www.youtube.com/watch?v=uZ5F-3ueBto",
+            "year": "2023",
+            "isPersonal": false,
+            "client": "Samson Verses"
+        },
+        {
+            "title": "YUGEN: The Beginning",
+            "artist": "Moti Abebe",
+            "type": "Original Release",
+            "roles": [
+                "Produced",
+                "Mixed",
+                "Mastered"
+            ],
+            "cover": "",
+            "url": "https://www.youtube.com/watch?v=-iMJSbvwRX0",
+            "year": "2022",
+            "isPersonal": true,
+            "client": "Personal"
+        },
+        {
+            "title": "Love Her",
+            "artist": "REMOVED FOR PRIVACY",
+            "type": "Freelance Service",
+            "roles": [
+                "Mixed",
+                "Mastered"
+            ],
+            "cover": "",
+            "url": "https://open.spotify.com/track/70jwHh2gaa4cduedKIZDcM?si=b056e35a31ef4915",
+            "year": "2022",
+            "isPersonal": false,
+            "client": "REMOVED FOR PRIVACY"
+        }
+    ]
+}
