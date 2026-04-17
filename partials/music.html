@@ -1,29 +1,24 @@
-<!-- <section id="music-section" class="animated-gradient text-white py-5 my-5">
-    <div id="music-grid" class="container px-4 px-md-5 py-5 text-light">
-        <div class="col-12 text-center py-5">
-            <div class="spinner-border text-light" role="status"></div>
-        </div>
-    </div> -->
-
 <section id="music-section" class="bg-black text-light py-5" data-theme="dark">
     <div id="music-grid" class="container px-4 px-md-5 py-5 text-light">
-        <!-- The rest of this file remains EXACTLY the same as we had it before! 
-             Just make sure the opening section tag matches above ^ -->
         <div class="col-12 text-center py-5">
             <div class="spinner-border text-light" role="status"></div>
         </div>
     </div>
 
-
-<!-- MUSTACHE TEMPLATE -->
     <template id="music-template">
-        <!-- Section Header -->
-        <div class="row justify-content-center justify-content-lg-start mb-5 animate__animated animate__fadeIn">
+        <div class="row justify-content-center justify-content-lg-start mb-5">
             <div class="col-lg-8 text-center text-lg-start">
-                <h2 class="display-5 fw-bold font-monospace">Music Production</h2>
-                <p class="lead opacity-75 mb-4">An exhilarating journey of self-expression. I produce tracks for myself and various artists, blending modern sounds with digital creativity.</p>
+                <h2 class="display-5 fw-bold font-monospace text-white typing-header">
+                    <span class="observe-typed" data-typed-string="Music Production" data-typed-speed="50"></span>
+                </h2>
                 
-                <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+                <p class="lead opacity-75 mb-4 observe-animate opacity-0" data-animate-class="animate__fadeInUp">
+                    An exhilarating journey of self-expression. I find immense joy in producing tracks for myself and collaborating with various artists, blending modern sounds with digital creativity. Constantly seeking new avenues to expand my musical horizons.
+                </p>
+                
+                <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 observe-animate opacity-0" 
+                     data-animate-class="animate__fadeInUp" 
+                     style="animation-delay: 0.4s;">
                     {{#platforms}}
                     <a href="{{url}}" target="_blank" class="btn btn-outline-light rounded-pill px-4 py-2 d-flex align-items-center">
                         <i class="{{icon}} me-2"></i> {{name}}
@@ -33,28 +28,31 @@
             </div>
         </div>
 
-        <!-- Featured Hero Track -->
         {{#featured}}
-        <div class="row justify-content-center mb-5 animate__animated animate__fadeInUp">
+        <div class="row justify-content-center mb-5 observe-animate opacity-0 animate__delay-1s" data-animate-class="animate__fadeInUp">
             <div class="col-lg-12">
-                <div class="card bg-transparent border-0 rounded-4 overflow-hidden shadow-lg p-2" style="background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0.5) 100%); border: 1px solid rgba(255,255,255,0.1) !important;">
+                <div class="card bg-transparent border-0 rounded-4 overflow-hidden shadow-lg p-2 music-hero-card">
                     <div class="row g-0 align-items-center">
                         <div class="col-md-5 p-4 p-md-5 d-flex justify-content-center">
-                            <!-- 3D Tilt CD Cover -->
-                            <div class="music-card rounded-4 shadow-lg overflow-hidden w-100" style="max-width: 320px; aspect-ratio: 1/1;" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.4">
-                                <!-- Image fallback logic -->
-                                <img src="{{cover}}" alt="{{title}}" class="img-fluid w-100 h-100 object-fit-cover bg-dark" onerror="this.src='img/My Logo white.png'; this.classList.add('opacity-25', 'p-5');">
+                            <div class="music-card rounded-4 shadow-lg overflow-hidden w-100 max-w-320 square-box" 
+                                 data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.4">
+                                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" 
+                                    data-src="{{cover}}" 
+                                    alt="{{title}}" 
+                                    class="img-fluid w-100 h-100 object-fit-cover bg-dark lazy-image">
                             </div>
                         </div>
                         <div class="col-md-7 text-center text-md-start">
                             <div class="card-body p-4 p-md-5">
-                                <span class="badge bg-light text-dark mb-3 rounded-pill px-3 py-2 fw-normal"><i class="fas fa-fire me-1 text-danger"></i> Highlight Track</span>
-                                <h2 class="display-6 fw-bold font-monospace mb-2">{{title}}</h2>
-                                <h5 class="text-light opacity-50 mb-4 font-monospace" style="font-size: 1rem;">{{artist}} • {{year}}</h5>
+                                <span class="badge bg-light text-dark mb-3 rounded-pill px-3 py-2 fw-normal animate__animated animate__pulse animate__infinite">
+                                    <i class="fas fa-fire me-1 text-danger"></i> Highlight Track
+                                </span>
+                                <h2 class="display-6 fw-bold font-monospace mb-2 text-white">{{title}}</h2>
+                                <h5 class="text-light opacity-50 mb-4 font-monospace fs-6">{{artist}} • {{year}}</h5>
                                 
                                 <div class="mb-4 d-flex flex-wrap justify-content-center justify-content-md-start gap-2">
                                     {{#roles}}
-                                    <span class="badge border border-light text-light opacity-50 fw-normal">#{{.}}</span>
+                                    <span class="badge border border-light text-light opacity-50 fw-normal text-xs">#{{.}}</span>
                                     {{/roles}}
                                 </div>
                                 
@@ -71,35 +69,51 @@
         </div>
         {{/featured}}
 
-        <!-- Mobile Swipe Indicator -->
-        <div class="d-flex justify-content-center d-md-none mb-3">
-            <span class="badge rounded-pill border border-light text-light opacity-50 fw-normal px-3 py-2 animate__animated animate__pulse animate__infinite">
-                Swipe <i class="fas fa-arrow-right ms-1"></i>
-            </span>
+        <div class="d-flex justify-content-center d-md-none mb-4">
+            <p class="small text-light font-monospace opacity-75 text-center mb-0 animate__animated animate__pulse animate__infinite">
+                <i class="fas fa-arrows-left-right me-2"></i>Swipe to explore
+            </p>
         </div>
 
-        <!-- Discography Grid -->
-        <h4 class="fw-bold font-monospace mb-4 text-center text-lg-start">Discography & Credits</h4>
+        <h4 class="fw-bold font-monospace mb-4 text-center text-lg-start text-white opacity-75">Discography & Credits</h4>
         <div class="row g-4 flex-nowrap flex-md-wrap overflow-x-auto mobile-scroll-track pb-3">
             {{#discography}}
-            <div class="col-8 col-md-4 col-lg-3 scroll-snap-card animate__animated animate__fadeIn">
-                <div class="music-card rounded-4 shadow-lg overflow-hidden position-relative mb-3 bg-dark" data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.4" style="border: 1px solid rgba(255,255,255,0.1); aspect-ratio: 1/1;">
-{{#isPersonal}}
-    <span class="position-absolute top-0 end-0 badge bg-black text-white m-2 border border-secondary z-2 shadow" style="font-size: 0.65rem;">Personal</span>
-{{/isPersonal}}
-{{^isPersonal}}
-    <span class="position-absolute top-0 end-0 badge bg-black text-white m-2 border border-secondary z-2 shadow" style="font-size: 0.65rem;">Client: {{client}}</span>
-{{/isPersonal}}
-                    <a href="{{url}}" target="_blank" class="d-block h-100 text-decoration-none">
-                        <img src="{{cover}}" alt="{{title}}" class="img-fluid w-100 h-100 object-fit-cover transition-fade" onerror="this.src='img/My Logo white.png'; this.classList.add('opacity-25', 'p-5');">
-                    </a>
+            <div class="col-8 col-md-4 col-lg-3 scroll-snap-card observe-animate opacity-0" data-animate-class="animate__fadeInUp">
+                <div class="music-card rounded-4 shadow-lg overflow-hidden position-relative mb-3 bg-dark" 
+                     data-tilt data-tilt-max="10" data-tilt-glare="true" data-tilt-max-glare="0.4" 
+                     style="border: 1px solid rgba(255,255,255,0.1); aspect-ratio: 1/1;">
+                    
+                    {{#isPersonal}}
+                        <span class="position-absolute top-0 end-0 badge bg-black text-white m-2 border border-secondary z-2 shadow" style="font-size: 0.65rem;">Personal</span>
+                    {{/isPersonal}}
+                    {{^isPersonal}}
+                        <span class="position-absolute top-0 end-0 badge bg-black text-white m-2 border border-secondary z-2 shadow text-wrap text-end badge-lh max-w-85" style="font-size: 0.65rem;">Client: {{client}}</span>
+                    {{/isPersonal}}
+
+                    {{#url}}
+                        <a href="{{url}}" target="_blank" class="d-block h-100 text-decoration-none">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" 
+                                data-src="{{cover}}" 
+                                alt="{{title}}" 
+                                class="img-fluid w-100 h-100 object-fit-cover lazy-image">
+                        </a>
+                        {{/url}}
+                        
+                        {{^url}}
+                        <div class="d-block h-100">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" 
+                                data-src="{{cover}}" 
+                                alt="{{title}}" 
+                                class="img-fluid w-100 h-100 object-fit-cover lazy-image">
+                        </div>
+                    {{/url}}
                 </div>
                 <div class="text-center text-md-start px-2">
                     <div class="d-flex justify-content-center justify-content-md-between align-items-center mb-2 gap-2">
                         <span class="badge text-dark bg-light px-2 py-1 fw-normal" style="font-size: 0.65rem;">{{type}}</span>
-                        <span class="font-monospace" style="font-size: 0.65rem;">{{year}}</span>
+                        <span class="text-light font-monospace" style="font-size: 0.65rem;">{{year}}</span>
                     </div>
-                    <h6 class="mb-1 fw-bold font-monospace text-truncate" title="{{title}}">{{title}}</h6>
+                    <h6 class="mb-1 fw-bold font-monospace text-truncate text-white" title="{{title}}">{{title}}</h6>
                     <small class="opacity-50 d-block text-truncate font-monospace" style="font-size: 0.75rem;" title="{{artist}}">{{artist}}</small>
                     <div class="mt-2 d-flex flex-wrap justify-content-center justify-content-md-start gap-2">
                         {{#roles}}

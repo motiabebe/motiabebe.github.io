@@ -9,6 +9,7 @@
                 "HTML/CSS",
                 "JS",
                 "Python",
+                "Gemini API",
                 "Github Actions"
             ],
             "links": {
@@ -22,7 +23,7 @@
         {
             "title": "FaydaLink",
             "category": "Civic Tech",
-            "date": "Feb 2026",
+            "date": "February 2026",
             "description": "A centralized directory linking Fayda IDs to various Ethiopian service providers. Simplifies access to integrated services, streamlining digital identity utilization.",
             "tech": [
                 "HTML/CSS",
@@ -41,13 +42,15 @@
                     "text": "GitHub Repo",
                     "icon": "fab fa-github"
                 }
-            }
+            },
+            "featured": true
         },
         {
             "title": "Zelan Studios",
             "category": "Client Work",
-            "date": "Oct 2024",
-            "description": "A modern, highly visual digital presence and portfolio developed for Zelan Studios.",
+            "date": "October 2024",
+            "lastUpdated": "August 2025",
+            "description": "A multi-lingual portfolio and e-commerce platform designed to showcase and commission custom hand-drawn portraits.",
             "tech": [
                 "HTML/CSS",
                 "JS",
@@ -59,12 +62,13 @@
                     "url": "https://zelan-studios.vercel.app/",
                     "text": "Visit Site"
                 }
-            }
+            },
+            "featured": true
         },
         {
             "title": "Birr Xchange",
             "category": "FinTech",
-            "date": "Aug 2024",
+            "date": "August 2024",
             "description": "Your go-to platform for Ethiopian FX rates and analytics. Stay informed and make smarter financial decisions with powerful analytics in one place.",
             "tech": [
                 "HTML/CSS",
@@ -74,6 +78,7 @@
                 "Github Actions"
             ],
             "archived": true,
+            "statusNote": "Archived: Data architecture became unmaintainable for a side project.",
             "links": {
                 "primary": {
                     "url": "https://birr-xchange.vercel.app/",
@@ -84,15 +89,16 @@
         {
             "title": "Tariff",
             "category": "Utility",
-            "date": "Apr 2024",
+            "date": "April 2024",
+            "lastUpdated": "March 2026",
             "description": "A user-friendly platform for comparing ride-hailing services. Offers a simple and efficient way to find the best ride options in Ethiopia.",
             "tech": [
                 "HTML/CSS",
                 "JS",
-                "Django",
-                "Map API"
+                "Django"
             ],
             "archived": true,
+            "statusNote": "Archived: High Map API costs and restricted service provider data.",
             "links": {
                 "primary": {
                     "url": "https://tariff-et.vercel.app/",
@@ -103,7 +109,7 @@
         {
             "title": "Walia AI Chatbot",
             "category": "AI & NLP",
-            "date": "Jan 2024",
+            "date": "January 2024",
             "description": "Multifaceted AI assistant powered by Gemini. Supports text, image, and voice interactions in English and Amharic.",
             "tech": [
                 "HTML/CSS",
@@ -113,6 +119,8 @@
                 "Azure Speech",
                 "Azure Translator"
             ],
+            "inactive": true,
+            "statusNote": "Offline: Hosting and API trial credits expired for this demo.",
             "links": {
                 "primary": {
                     "url": "https://www.linkedin.com/posts/activity-7148196370863046656-OWYq",
@@ -122,9 +130,30 @@
             }
         },
         {
+            "title": "Send to Terminal Pro",
+            "category": "Extension",
+            "date": "January 2024",
+            "description": "Send to Terminal allows you to send commands to the terminal without leaving your editor. It also allows you to execute commands in the terminal with a single click.",
+            "tech": [
+                "Typescript"
+            ],
+            "links": {
+                "primary": {
+                    "url": "https://marketplace.visualstudio.com/items?itemName=ibexCode.send-to-terminal-pro",
+                    "text": "VS Code Marketplace"
+                },
+                "secondary": {
+                    "url": "https://github.com/motiabebe/Send-to-Terminal",
+                    "text": "GitHub Repo",
+                    "icon": "fab fa-github"
+                }
+            }
+        },
+        {
             "title": "TV Parental Guidelines",
             "category": "Directory",
-            "date": "Dec 2023",
+            "date": "December 2023",
+            "lastUpdated": "June 2025",
             "description": "A project to help parents and guardians make informed decisions about the content their children watch on Ethiopian TV channels.",
             "tech": [
                 "HTML/CSS",
@@ -136,13 +165,48 @@
                     "url": "https://tv-guidelines.vercel.app/",
                     "text": "Visit Site"
                 }
+            },
+            "featured": true
+        },
+        {
+            "title": "Kulu Group",
+            "category": "Client Work",
+            "date": "November 2023",
+            "lastUpdated": "July 2024",
+            "description": "A modern, parallax-driven corporate website showcasing an Ethiopian conglomerate's ventures in telecom, software, and gaming.",
+            "tech": [
+                "HTML/CSS",
+                "JS",
+                "Django"
+            ],
+            "links": {
+                "primary": {
+                    "url": "https://kulu-group.com",
+                    "text": "Visit Site"
+                }
             }
+        },
+        {
+            "title": "Chereta",
+            "category": "E-Commerce",
+            "date": "September 2023",
+            "description": "Real-time online auction platform tailored for the Ethiopian market with YenePay integration. Developed as an academic project.",
+            "tech": [
+                "HTML/CSS",
+                "JS",
+                "Django",
+                "Django-Channels",
+                "YenePay"
+            ],
+            "inactive": true,
+            "statusNote": "Offline: Academic project proof-of-concept."
         },
         {
             "title": "Equb",
             "category": "FinTech",
-            "date": "2023",
-            "description": "A lightweight web app for managing traditional Ethiopian peer-to-peer saving groups.",
+            "date": "June 2023",
+            "lastUpdated": "August 2023",
+            "description": "A lightweight web app for managing traditional Ethiopian peer-to-peer saving groups. Developed as an academic project.",
             "tech": [
                 "HTML/CSS",
                 "JS"
@@ -155,48 +219,10 @@
             }
         },
         {
-            "title": "Kulu Group",
-            "category": "Client Work",
-            "date": "2023",
-            "description": "Modern corporate presence for a multi-service Ethiopian company.",
-            "tech": [
-                "HTML/CSS",
-                "JS",
-                "Vanilla JS",
-                "Parallax JS"
-            ],
-            "links": {
-                "primary": {
-                    "url": "https://kulu-group.com",
-                    "text": "Visit Site"
-                }
-            }
-        },
-        {
-            "title": "Chereta",
-            "category": "E-Commerce",
-            "date": "Sept 2023",
-            "description": "Real-time online auction platform tailored for the Ethiopian market with YenePay integration. Developed as an academic project.",
-            "tech": [
-                "HTML/CSS",
-                "JS",
-                "Django",
-                "Django-Channels",
-                "YenePay"
-            ],
-            "inactive": true,
-            "links": {
-                "secondary": {
-                    "url": "https://youtu.be/8gA-5zooZ3A",
-                    "text": "Watch Demo",
-                    "icon": "fab fa-youtube"
-                }
-            }
-        },
-        {
             "title": "All School Ethiopia",
             "category": "EdTech",
-            "date": "Apr 2022",
+            "date": "August 2017",
+            "lastUpdated": "February 2022",
             "description": "Comprehensive directory system for Ethiopian educational institutions.",
             "tech": [
                 "HTML/CSS",
@@ -204,7 +230,8 @@
                 "PHP",
                 "MySQL"
             ],
-            "inactive": true
+            "inactive": true,
+            "statusNote": "Offline: Legacy PHP/MySQL project retired after domain expiration."
         }
     ]
 }

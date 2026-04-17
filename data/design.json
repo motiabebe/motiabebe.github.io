@@ -1,77 +1,131 @@
 {
     "designs": [
         {
-            "title": "Ticker.et Branding",
+            "title": "Ticker.et",
             "type": "Branding",
-            "src": "img/graphics_design/Logo_Ticker-min.png",
-            "client": "Self",
-            "description": "Institutional-grade financial terminal branding.",
+            "src": "assets/img/design/Branding_Ticker.et.png",
+            "client": "Personal",
             "year": "2026",
-            "isPersonal": true,
-            "featured": true
+            "isPersonal": true
         },
         {
-            "title": "Ibex Waves Logo",
+            "title": "IbexWaves",
             "type": "Branding",
-            "src": "img/graphics_design/Logo_Ibex-min.png",
-            "client": "Self",
-            "description": "Modern wave-inspired startup identity.",
-            "year": "2025",
-            "isPersonal": true,
-            "featured": true
+            "src": "assets/img/design/Branding_IbexWaves.jpg",
+            "client": "Personal",
+            "year": "2024",
+            "isPersonal": true
         },
         {
-            "title": "Adwavic Logo",
+            "title": "Welabu Printing Press",
             "type": "Branding",
-            "src": "img/graphics_design/Logo_Adwavic-min.png",
-            "client": "Adwavic",
-            "description": "Geometric logo for a digital agency.",
+            "src": "assets/img/design/Branding_Welabu.jpg",
+            "client": "Welabu Printing Press",
             "year": "2023",
             "isPersonal": false
         },
         {
-            "title": "WPP Branding",
+            "title": "Eman Khalid Abdurheman Import & Export Logo",
             "type": "Branding",
-            "src": "img/graphics_design/Logo_WPP-min.png",
-            "client": "WPP",
-            "description": "Professional corporate identity refresh.",
-            "year": "2022",
+            "src": "assets/img/design/Branding_Eman.jpg",
+            "client": "Eman Khalid Abdurheman Import & Export",
+            "year": "2020",
             "isPersonal": false
         },
         {
-            "title": "Love Her",
-            "type": "Music",
-            "src": "img/graphics_design/Cover_LoveHer-min.jpg",
-            "client": "Artist",
-            "description": "Atmospheric lo-fi album cover art.",
-            "year": "2021",
+            "title": "Adwavic Records Logo",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_Adwavic.png",
+            "client": "Adwavic Records",
+            "year": "2019",
             "isPersonal": false
         },
         {
-            "title": "Feshta",
-            "type": "Music",
-            "src": "img/graphics_design/Cover_Feshta-min.jpg",
-            "client": "Artist",
-            "description": "Vibrant, high-energy single cover.",
-            "year": "2022",
-            "isPersonal": false
-        },
-        {
-            "title": "Natty Social",
-            "type": "Social",
-            "src": "img/graphics_design/IG_Natty-min.png",
-            "client": "Natty",
-            "description": "Minimalist Instagram content series.",
-            "year": "2024",
-            "isPersonal": false
-        },
-        {
-            "title": "Jordan Poster",
-            "type": "Social",
-            "src": "img/graphics_design/IG_Jordan-min.png",
+            "title": "The EEDM Nation",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_EEDM.jpg",
             "client": "Personal",
-            "description": "Experimental typographic poster design.",
-            "year": "2024",
+            "year": "2018",
+            "isPersonal": true
+        },
+        {
+            "title": "KMtv Entertainment",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_KMtv.jpg",
+            "client": "Personal",
+            "year": "2017",
+            "isPersonal": true
+        },
+        {
+            "title": "Feshta Artwork",
+            "type": "Music",
+            "src": "assets/img/design/Music_Feshta.jpg",
+            "client": "Matador X",
+            "year": "2023",
+            "isPersonal": false
+        },
+        {
+            "title": "Major Promise Artwork",
+            "type": "Music",
+            "src": "assets/img/design/Music_MajorPromise.jpg",
+            "client": "Samson Verses",
+            "year": "2023",
+            "isPersonal": false
+        },
+        {
+            "title": "In Your Eyes Artwork",
+            "type": "Music",
+            "src": "assets/img/design/Music_InYourEyes.jpg",
+            "client": "Artist",
+            "year": "2022",
+            "isPersonal": false
+        },
+        {
+            "title": "Groove Artwork",
+            "type": "Music",
+            "src": "assets/img/design/Music_Groove.jpg",
+            "client": "Personal",
+            "year": "2020",
+            "isPersonal": true
+        },
+        {
+            "title": "Ticker.et",
+            "type": "Social",
+            "src": "assets/img/design/Social_Ticker.et.jpg",
+            "client": "Personal",
+            "year": "2026",
+            "isPersonal": true
+        },
+        {
+            "title": "Piyassa",
+            "type": "Social",
+            "src": "assets/img/design/Social_Piyassa.jpg",
+            "client": "Personal",
+            "year": "2023",
+            "isPersonal": true
+        },
+        {
+            "title": "BBOYTOMY",
+            "type": "Social",
+            "src": "assets/img/design/Social_BBOYTOMY.jpg",
+            "client": "Personal",
+            "year": "2020",
+            "isPersonal": true
+        },
+        {
+            "title": "Jordan & Bek Ge'ez",
+            "type": "Social",
+            "src": "assets/img/design/Social_JB.jpg",
+            "client": "Jordan & Bek Ge'ez",
+            "year": "2020",
+            "isPersonal": false
+        },
+        {
+            "title": "Jordan Muzika",
+            "type": "Social",
+            "src": "assets/img/design/Social_JM.jpg",
+            "client": "Personal",
+            "year": "2019",
             "isPersonal": true
         }
     ]

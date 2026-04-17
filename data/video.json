@@ -2,9 +2,9 @@
     "channels": [
         {
             "name": "KMtv Entertainment",
-            "description": "Home for Ethiopian Electronic Dance Music",
+            "description": "Home of Ethiopian Electronic Dance Music",
             "url": "KMtvEntertainment",
-            "stats": "2M+ Views"
+            "stats": "3M+ Views"
         },
         {
             "name": "Moti Abebe",
@@ -16,7 +16,7 @@
             "name": "Ahun Studios",
             "description": "Producing high-quality entertainment content that explores the culture and ideas shaping Ethiopia.",
             "url": "AhunStudios",
-            "stats": ""
+            "stats": "Entertainment & Culture"
         }
     ],
     "featured": {
@@ -33,10 +33,9 @@
     "portfolio": [
         {
             "title": "Samson Verses - Major Promise",
-            "role": "Editor",
+            "role": "Camera Op & Editor",
             "videoId": "y-WTGQVTGFc",
-            "description": "A music visualizer for Samson Verses - Major Promise",
-            "category": "Freelance",
+            "description": "A music visualizer showing casing Addis Ababa's vibrant sides of nature and urban life.",
             "year": "2024",
             "isPersonal": false,
             "client": "Samson Verses"
@@ -45,18 +44,16 @@
             "title": "Samson Verses - Purpose",
             "role": "Director & Editor",
             "videoId": "ASjxDebsE2k",
-            "description": "A music video for.",
-            "category": "Freelance",
+            "description": "A cinematic black and white music video focused on self-reflection and storytelling.",
             "year": "2022",
             "isPersonal": false,
             "client": "Samson Verses"
         },
         {
-            "title": "Culture Day 2019 -Aftermovie",
+            "title": "Culture Day 2019 - Aftermovie",
             "role": "Director & Editor",
             "videoId": "XGOpnkYFJJ4",
-            "description": "A .... aftermovie ",
-            "category": "Freelance",
+            "description": "A high-energy aftermovie blending a traditional cultural celebration with a modern EDM soundtrack.",
             "year": "2020",
             "isPersonal": true,
             "client": "Personal"

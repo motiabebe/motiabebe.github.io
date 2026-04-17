@@ -1,37 +1,44 @@
-<!-- <section id="design-section" class="py-5 my-5"> -->
 <section id="design-section" class="bg-black text-light py-5" data-theme="dark">
     <div class="container px-4 px-md-5 py-5">
         <div class="row mb-5 align-items-end">
             <div class="col-lg-6 text-center text-lg-start">
-                <h2 class="display-5 fw-bold font-monospace text-white">Visual Design</h2>
-                <p class="lead opacity-75">Visual storytelling through branding, digital art, and minimalist aesthetics.</p>
+                <h2 class="display-5 fw-bold font-monospace text-white typing-header">
+                    <span class="observe-typed" data-typed-string="Visual Design" data-typed-speed="50"></span>
+                </h2>
+                <p class="lead opacity-75 observe-animate opacity-0" data-animate-class="animate__fadeInUp">
+                    Visual storytelling through branding, digital art, and minimalist aesthetics. I've been refining my craft since 2015, designing clean, modern identities for clients and personal projects.
+                </p>
             </div>
+            
             <div class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0">
-                <div id="design-filter" class="d-flex flex-wrap justify-content-center justify-content-lg-end gap-2">
-                    <!-- Dynamic Filter Pills -->
+                <div id="design-filter" 
+                    class="d-flex flex-wrap justify-content-center justify-content-lg-end gap-2 mb-2 observe-animate opacity-0" 
+                    data-animate-class="animate__fadeInUp" style="animation-delay: 0.5s;">
+
                 </div>
             </div>
         </div>
 
-        <!-- Swipe indicator for mobile -->
-        <div class="d-flex justify-content-center d-md-none mb-3">
-            <span class="badge rounded-pill border border-light text-light opacity-50 fw-normal px-3 py-2 animate__animated animate__pulse animate__infinite">
-                Swipe <i class="fas fa-arrow-right ms-1"></i>
-            </span>
+        <div class="d-flex justify-content-center d-md-none mb-4">
+            <p class="small text-light font-monospace opacity-75 text-center mb-0 animate__animated animate__pulse animate__infinite">
+                <i class="fas fa-arrows-left-right me-2"></i>Swipe to explore
+            </p>
         </div>
 
-        <!-- The Design Gallery -->
         <div id="design-grid" class="row g-3 flex-nowrap flex-md-wrap overflow-x-auto mobile-scroll-track pb-3">
-            <!-- Items Injected Here -->
+
+        </div>
+        <div class="text-center mt-5 observe-animate opacity-0" data-animate-class="animate__fadeInUp">
+            <p class="small text-white-50 font-monospace tracking-wide text-xs">
+                * Client artwork and materials are owned by their respective entities.
+            </p>
         </div>
     </div>
 
-    <!-- MUSTACHE TEMPLATE -->
-<!-- MUSTACHE TEMPLATE -->
     <template id="design-template">
         {{#designs}}
-        <div class="col-8 col-md-4 col-lg-3 design-item scroll-snap-card animate__animated animate__fadeIn">
-            <!-- Tilt conditionally applied -->
+        <div class="col-8 col-md-4 col-lg-3 design-item scroll-snap-card observe-animate opacity-0" 
+             data-animate-class="animate__fadeInUp">
             {{#isMusic}}
             <div class="design-card music-tilt position-relative overflow-hidden rounded-4 shadow" 
                  data-tilt data-tilt-glare="true" data-tilt-max-glare="0.3" data-tilt-scale="1.05">
@@ -40,21 +47,23 @@
             <div class="design-card position-relative overflow-hidden rounded-4 shadow">
             {{/isMusic}}
                 
-                <!-- NEW: Floating Badges for Personal/Client -->
                 {{#isPersonal}}
                     <span class="position-absolute top-0 end-0 badge bg-black text-white m-3 border border-secondary z-2 shadow" style="font-size: 0.65rem;">Personal</span>
                 {{/isPersonal}}
                 {{^isPersonal}}
-                    <span class="position-absolute top-0 end-0 badge bg-black text-white m-3 border border-secondary z-2 shadow" style="font-size: 0.65rem;">Client: {{client}}</span>
+                    <span class="position-absolute top-0 end-0 badge bg-black text-white m-3 border border-secondary z-2 shadow text-wrap text-end badge-lh max-w-85" style="font-size: 0.65rem;">Client: {{client}}</span>
                 {{/isPersonal}}
 
-                <img src="{{src}}" alt="{{title}}" class="img-fluid w-100">
+                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" 
+                    data-src="{{src}}" 
+                    alt="{{title}}" 
+                    class="img-fluid w-100 object-fit-cover lazy-image" 
+                    style="aspect-ratio: 1/1;">
                 
-                <!-- Cleaned up labels, preserved the year -->
-<div class="design-info p-3 transition-fade d-flex flex-column justify-content-end align-items-center align-items-md-start">
-    <div class="d-flex justify-content-between w-100 mb-2">
-        <span class="badge text-dark bg-light font-monospace px-2 py-1 shadow-sm" style="font-size: 0.65rem; letter-spacing: 1px;">{{type}}</span>
-                        <span class="badge border border-light text-light font-monospace px-2 py-1" style="font-size: 0.65rem;">{{year}}</span>
+                <div class="design-info p-3 transition-fade d-flex flex-column justify-content-end align-items-center align-items-md-start">
+                    <div class="d-flex justify-content-between w-100 mb-2">
+                        <span class="badge text-dark bg-light font-monospace px-2 py-1 shadow-sm text-xxs tracking-wide">{{type}}</span>
+                        <span class="badge border border-light text-light font-monospace px-2 py-1 text-xxs">{{year}}</span>
                     </div>
                     <p class="mb-0 fw-bold text-white text-center text-md-start w-100">{{title}}</p>
                 </div>

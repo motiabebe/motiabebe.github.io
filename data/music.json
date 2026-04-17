@@ -7,7 +7,7 @@
         },
         {
             "name": "Apple Music",
-            "url": "https://music.apple.com/artist/moti-abebe",
+            "url": "https://music.apple.com/us/artist/moti-abebe/",
             "icon": "fab fa-apple"
         },
         {
@@ -24,7 +24,7 @@
             "Mixed",
             "Mastered"
         ],
-        "cover": "",
+        "cover": "assets/img/music/scf.jpg",
         "url": "https://youtu.be/g5cVfozbq4k",
         "year": "2021"
     },
@@ -38,7 +38,7 @@
                 "Mixed",
                 "Mastered"
             ],
-            "cover": "",
+            "cover": "assets/img/music/iyyoolee_remix.jpg",
             "url": "https://youtu.be/Idi5LswTq-8",
             "year": "2025",
             "isPersonal": true,
@@ -53,7 +53,7 @@
                 "Mixed",
                 "Mastered"
             ],
-            "cover": "",
+            "cover": "assets/img/music/major_promise.jpg",
             "url": "https://www.youtube.com/watch?v=y-WTGQVTGFc",
             "year": "2024",
             "isPersonal": false,
@@ -68,7 +68,7 @@
                 "Mixed",
                 "Mastered"
             ],
-            "cover": "",
+            "cover": "assets/img/music/no_sleep_remix.jpg",
             "url": "https://www.youtube.com/watch?v=LTKTL00EGzk",
             "year": "2023",
             "isPersonal": true,
@@ -83,7 +83,7 @@
                 "Mixed",
                 "Mastered"
             ],
-            "cover": "",
+            "cover": "assets/img/music/ocd.jpg",
             "url": "https://www.youtube.com/watch?v=uZ5F-3ueBto",
             "year": "2023",
             "isPersonal": false,
@@ -98,7 +98,7 @@
                 "Mixed",
                 "Mastered"
             ],
-            "cover": "",
+            "cover": "assets/img/music/the_beginning.jpg",
             "url": "https://www.youtube.com/watch?v=-iMJSbvwRX0",
             "year": "2022",
             "isPersonal": true,
@@ -107,13 +107,13 @@
         {
             "title": "Love Her",
             "artist": "REMOVED FOR PRIVACY",
-            "type": "Freelance Service",
+            "type": "Original Release",
             "roles": [
                 "Mixed",
                 "Mastered"
             ],
-            "cover": "",
-            "url": "https://open.spotify.com/track/70jwHh2gaa4cduedKIZDcM?si=b056e35a31ef4915",
+            "cover": "assets/img/music/love_her.jpg",
+            "url": "",
             "year": "2022",
             "isPersonal": false,
             "client": "REMOVED FOR PRIVACY"
