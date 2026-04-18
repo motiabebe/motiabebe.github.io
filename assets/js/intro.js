@@ -97,7 +97,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         DOM.skipBtn.classList.add('d-none');
         await delay(700);
-        DOM.introActions.classList.replace('opacity-0', 'opacity-100');
+        DOM.introActions.classList.replace('opacity-0', 'animate__fadeIn');
+
     };
 
     runIntroSequence();
