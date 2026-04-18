@@ -1,0 +1,108 @@
+{
+    "summary": {
+        "totalViews": "2.5M+",
+        "totalDownloads": "18.5K+",
+        "platform": "Unsplash",
+        "profileUrl": "https://unsplash.com/@thatboymoti"
+    },
+    "press": [
+        {
+            "name": "Cambridge Enterprise",
+            "logo": "assets/img/logos/cambridge_enterprise.svg"
+        },
+        {
+            "name": "Techcabal",
+            "logo": "assets/img/logos/techcabal.png"
+        },
+        {
+            "name": "Buzzfeed",
+            "logo": "assets/img/logos/buzzfeed.png"
+        },
+        {
+            "name": "HiiL",
+            "logo": "assets/img/logos/hiil.jpg"
+        },
+        {
+            "name": "NHH Norway",
+            "logo": "assets/img/logos/nhh.png"
+        },
+        {
+            "name": "BeachRadio",
+            "logo": "assets/img/logos/beachradio.png"
+        }
+    ],
+    "photos": [
+        {
+            "location": "Friendship Park 2, Addis Ababa",
+            "category": "Skyline",
+            "src": "assets/img/photography/moti-abebe-obF3Ia4lgIw-unsplash.jpg",
+            "year": "2022"
+        },
+        {
+            "location": "Bole International Airport, Addis Ababa",
+            "category": "Street",
+            "src": "assets/img/photography/moti-abebe-nL-YPCdKKEc-unsplash.jpg",
+            "year": "2021"
+        },
+        {
+            "location": "Abrehot Library, Addis Ababa",
+            "category": "Architecture",
+            "src": "assets/img/photography/moti-abebe-3S3qaNJAoUs-unsplash.jpg",
+            "year": "2022"
+        },
+        {
+            "location": "Churchill Avenue, Addis Ababa",
+            "category": "Street",
+            "src": "assets/img/photography/moti-abebe-4iecRkjSNyE-unsplash.jpg",
+            "year": "2021"
+        },
+        {
+            "location": "Piyassa, Addis Ababa",
+            "category": "Street",
+            "src": "assets/img/photography/moti-abebe-QaVBOmhP__0-unsplash.jpg",
+            "year": "2021"
+        },
+        {
+            "location": "Friendship Park 2, Addis Ababa",
+            "category": "Architecture",
+            "src": "assets/img/photography/moti-abebe-yXR7UXXSe7M-unsplash.jpg",
+            "year": "2022"
+        },
+        {
+            "location": "Friendship Park 2, Addis Ababa",
+            "category": "Skyline",
+            "src": "assets/img/photography/moti-abebe-8gA-5zooZ3A-unsplash.jpg",
+            "year": "2022"
+        },
+        {
+            "location": "Friendship Park 2, Addis Ababa",
+            "category": "Urban",
+            "src": "assets/img/photography/moti-abebe-RK5PTApndaM-unsplash.jpg",
+            "year": "2022"
+        },
+        {
+            "location": "Arada, Addis Ababa",
+            "category": "Architecture",
+            "src": "assets/img/photography/moti-abebe-RuI4nKzaZts-unsplash.jpg",
+            "year": "2022"
+        },
+        {
+            "location": "Science & Technology Museum, Addis Ababa",
+            "category": "Urban",
+            "src": "assets/img/photography/moti-abebe-PWmxLEChzvU-unsplash.jpg",
+            "year": "2022"
+        },
+        {
+            "location": "Finance District, Addis Ababa",
+            "category": "Architecture",
+            "src": "assets/img/photography/moti-abebe-_R3xnVTY3Fw-unsplash.jpg",
+            "year": "2021"
+        },
+        {
+            "location": "Churchill Avenue, Addis Ababa",
+            "category": "Urban",
+            "src": "assets/img/photography/moti-abebe-w2T86OhdFD8-unsplash.jpg",
+            "year": "2024"
+        }
+    ]
+}

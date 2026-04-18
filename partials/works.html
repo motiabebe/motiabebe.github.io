@@ -1,0 +1,112 @@
+<section id="works-section" class="bg-black text-light py-5" data-theme="dark">
+    <div class="container px-4 px-md-5 py-5 my-5">
+        <div class="row mb-4 align-items-end">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h2 class="display-5 fw-bold font-monospace text-white typing-header">
+                    <span class="observe-typed" data-typed-string="Selected Works" data-typed-speed="50"></span>
+                </h2>
+                <p class="lead opacity-75 observe-animate opacity-0" 
+                   data-animate-class="animate__fadeIn" 
+                   style="animation-delay: 0.6s;">
+                    Engineering digital solutions across various domains.
+                </p>
+            </div>
+
+            <div class="col-lg-5 text-center text-lg-end mt-3 mt-lg-0">
+                <div id="filter-container" 
+                     class="d-flex flex-wrap justify-content-center justify-content-lg-end gap-2 mb-2 observe-animate opacity-0" 
+                     data-animate-class="animate__fadeInDown" 
+                     style="animation-delay: 0.8s;">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center d-md-none mb-4">
+            <p class="small text-light font-monospace opacity-75 text-center mb-0 animate__animated animate__pulse animate__infinite">
+                <i class="fas fa-arrows-left-right me-2"></i>Swipe to explore
+            </p>
+        </div>
+
+        <div id="works-grid" class="row g-4 flex-nowrap flex-md-wrap overflow-x-auto mobile-scroll-track pb-3">
+            <div class="col-12 text-center py-5">
+                <div class="spinner-border text-light" role="status"></div>
+            </div>
+        </div>
+
+        <template id="works-template">
+            {{#projects}}
+            <div class="col-10 col-md-6 col-lg-6 project-item scroll-snap-card observe-animate opacity-0" 
+                 data-animate-class="animate__fadeInUp">
+                
+                <div class="work-card text-white p-4 h-100 d-flex flex-column justify-content-between position-relative overflow-hidden" data-tilt data-tilt-max="4" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">        
+                    <div class="position-relative z-2 text-center text-md-start">
+                        <div class="d-flex justify-content-center justify-content-md-start align-items-center flex-wrap gap-2 mb-3">
+                            {{#featured}}
+                                <span class="badge bg-danger text-white px-2 py-1 shadow-sm"><i class="fas fa-fire me-1"></i> Featured</span>
+                            {{/featured}}
+                            {{#archived}}
+                                <span class="badge bg-warning text-dark px-2 py-1">Archived</span>
+                            {{/archived}}
+                            {{#openSource}}
+                                <span class="badge bg-success px-2 py-1"><i class="fab fa-osi me-1"></i> Open Source</span>
+                            {{/openSource}}
+                            <span class="badge rounded-pill px-3 py-1 text-light fw-normal glass-badge">
+                                {{category}}
+                            </span>
+                        </div>
+        
+        
+                        <h3 class="h4 fw-bold mb-1 font-monospace">{{title}}</h3>
+                        <small class="opacity-50 font-monospace d-block mb-3 text-xs">
+                            {{date}} {{#lastUpdated}} • Updated: {{lastUpdated}}{{/lastUpdated}}
+                        </small>      
+
+                        <p class="opacity-75 small mb-3 px-3 px-md-0 lh-relaxed">{{description}}</p>
+
+                        {{#statusNote}}
+                            <div class="px-3 px-md-0 mb-3 text-start">
+                                <span class="text-warning opacity-75 font-monospace text-xs"><i class="fas fa-info-circle me-1"></i>{{statusNote}}</span>
+                            </div>
+                        {{/statusNote}}
+        
+                        <div class="mb-4 d-flex justify-content-center justify-content-md-start flex-wrap gap-2">
+                            {{#tech}}
+                            <span class="text-light fw-normal font-monospace opacity-50 text-xs">#{{.}}</span>
+                            {{/tech}}
+                        </div>
+                    </div>
+
+                    <div class="mt-auto d-flex flex-wrap justify-content-center justify-content-md-start gap-2 z-2 position-relative">
+                        {{#links.primary}}
+                            <a href="{{url}}" target="_blank" class="btn btn-sm btn-light rounded-pill px-3 py-2 fw-bold text-dark d-flex align-items-center">
+                                {{#icon}}<i class="{{icon}} me-2"></i>{{/icon}}
+                                {{^icon}}<i class="fas fa-link me-2"></i>{{/icon}}
+                                {{text}}
+                            </a>
+                        {{/links.primary}}
+                        
+                        {{#links.secondary}}
+                            <a href="{{url}}" target="_blank" class="btn btn-sm btn-outline-light rounded-pill px-3 py-2 d-flex align-items-center">
+                                <i class="{{icon}} me-2"></i> {{text}}
+                            </a>
+                        {{/links.secondary}}
+        
+                        {{#inactive}}
+                            {{^links.secondary}}
+                                <span class="badge border border-secondary rounded-pill px-3 py-2 d-flex align-items-center opacity-50">Offline</span>
+                            {{/links.secondary}}
+                        {{/inactive}}
+                    </div>
+                </div>
+            </div>
+            {{/projects}}
+        </template>
+    </div>
+
+    <div class="text-center mt-5 observe-animate opacity-0" data-animate-class="animate__fadeInUp">
+        <p class="small text-white-50 font-monospace px-3">
+            You can find more of my projects on <i class="fab fa-github text-white mx-1"></i> <a href="https://github.com/motiabebe" class="text-light fw-bold text-decoration-none transition-fade hover-opacity-100" target="_blank">GitHub</a> or check out my <i class="fab fa-linkedin-in text-white mx-1"></i> <a href="https://www.linkedin.com/in/motiabebe" class="text-light fw-bold text-decoration-none transition-fade hover-opacity-100" target="_blank">LinkedIn</a> profile.
+        </p>
+    </div>
+</section>

@@ -1,0 +1,132 @@
+{
+    "designs": [
+        {
+            "title": "Ticker.et",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_Ticker.et.png",
+            "client": "Personal",
+            "year": "2026",
+            "isPersonal": true
+        },
+        {
+            "title": "IbexWaves",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_IbexWaves.jpg",
+            "client": "Personal",
+            "year": "2024",
+            "isPersonal": true
+        },
+        {
+            "title": "Welabu Printing Press",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_Welabu.jpg",
+            "client": "Welabu Printing Press",
+            "year": "2023",
+            "isPersonal": false
+        },
+        {
+            "title": "Eman Khalid Abdurheman Import & Export Logo",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_Eman.jpg",
+            "client": "Eman Khalid Abdurheman Import & Export",
+            "year": "2020",
+            "isPersonal": false
+        },
+        {
+            "title": "Adwavic Records Logo",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_Adwavic.png",
+            "client": "Adwavic Records",
+            "year": "2019",
+            "isPersonal": false
+        },
+        {
+            "title": "The EEDM Nation",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_EEDM.jpg",
+            "client": "Personal",
+            "year": "2018",
+            "isPersonal": true
+        },
+        {
+            "title": "KMtv Entertainment",
+            "type": "Branding",
+            "src": "assets/img/design/Branding_KMtv.jpg",
+            "client": "Personal",
+            "year": "2017",
+            "isPersonal": true
+        },
+        {
+            "title": "Feshta Artwork",
+            "type": "Music",
+            "src": "assets/img/design/Music_Feshta.jpg",
+            "client": "Matador X",
+            "year": "2023",
+            "isPersonal": false
+        },
+        {
+            "title": "Major Promise Artwork",
+            "type": "Music",
+            "src": "assets/img/design/Music_MajorPromise.jpg",
+            "client": "Samson Verses",
+            "year": "2023",
+            "isPersonal": false
+        },
+        {
+            "title": "In Your Eyes Artwork",
+            "type": "Music",
+            "src": "assets/img/design/Music_InYourEyes.jpg",
+            "client": "Artist",
+            "year": "2022",
+            "isPersonal": false
+        },
+        {
+            "title": "Groove Artwork",
+            "type": "Music",
+            "src": "assets/img/design/Music_Groove.jpg",
+            "client": "Personal",
+            "year": "2020",
+            "isPersonal": true
+        },
+        {
+            "title": "Ticker.et",
+            "type": "Social",
+            "src": "assets/img/design/Social_Ticker.et.jpg",
+            "client": "Personal",
+            "year": "2026",
+            "isPersonal": true
+        },
+        {
+            "title": "Piyassa",
+            "type": "Social",
+            "src": "assets/img/design/Social_Piyassa.jpg",
+            "client": "Personal",
+            "year": "2023",
+            "isPersonal": true
+        },
+        {
+            "title": "BBOYTOMY",
+            "type": "Social",
+            "src": "assets/img/design/Social_BBOYTOMY.jpg",
+            "client": "Personal",
+            "year": "2020",
+            "isPersonal": true
+        },
+        {
+            "title": "Jordan & Bek Ge'ez",
+            "type": "Social",
+            "src": "assets/img/design/Social_JB.jpg",
+            "client": "Jordan & Bek Ge'ez",
+            "year": "2020",
+            "isPersonal": false
+        },
+        {
+            "title": "Jordan Muzika",
+            "type": "Social",
+            "src": "assets/img/design/Social_JM.jpg",
+            "client": "Personal",
+            "year": "2019",
+            "isPersonal": true
+        }
+    ]
+}

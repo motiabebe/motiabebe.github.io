@@ -1,0 +1,62 @@
+{
+    "channels": [
+        {
+            "name": "KMtv Entertainment",
+            "description": "Home of Ethiopian Electronic Dance Music",
+            "url": "KMtvEntertainment",
+            "stats": "3M+ Views"
+        },
+        {
+            "name": "Moti Abebe",
+            "description": "Music Realted content",
+            "url": "motiabebe",
+            "stats": "Creative Portfolio"
+        },
+        {
+            "name": "Ahun Studios",
+            "description": "Producing high-quality entertainment content that explores the culture and ideas shaping Ethiopia.",
+            "url": "AhunStudios",
+            "stats": "Entertainment & Culture"
+        }
+    ],
+    "featured": {
+        "title": "How the Ethiopian Music Industry Failed Its Artists",
+        "channel": "Ahun Studios",
+        "description": "In this episode of Hubannoo, we conduct a deep, data-driven investigation into the systemic failures of the Ethiopian music industry.",
+        "videoId": "HmsFZigdEBM",
+        "year": "2025",
+        "tags": [
+            "Director",
+            "Editing"
+        ]
+    },
+    "portfolio": [
+        {
+            "title": "Samson Verses - Major Promise",
+            "role": "Camera Op & Editor",
+            "videoId": "y-WTGQVTGFc",
+            "description": "A music visualizer showing casing Addis Ababa's vibrant sides of nature and urban life.",
+            "year": "2024",
+            "isPersonal": false,
+            "client": "Samson Verses"
+        },
+        {
+            "title": "Samson Verses - Purpose",
+            "role": "Director & Editor",
+            "videoId": "ASjxDebsE2k",
+            "description": "A cinematic black and white music video focused on self-reflection and storytelling.",
+            "year": "2022",
+            "isPersonal": false,
+            "client": "Samson Verses"
+        },
+        {
+            "title": "Culture Day 2019 - Aftermovie",
+            "role": "Director & Editor",
+            "videoId": "XGOpnkYFJJ4",
+            "description": "A high-energy aftermovie blending a traditional cultural celebration with a modern EDM soundtrack.",
+            "year": "2020",
+            "isPersonal": true,
+            "client": "Personal"
+        }
+    ]
+}
