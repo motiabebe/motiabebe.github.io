@@ -1,6 +1,6 @@
 // Intro Sequence Engine
 const TIMING = {
-    greetingDelay: 300, terminalStart: 1000, typeSpeedCmd: 50,
+    greetingDelay: 300, terminalStart: 1000, typeSpeedCmd: 70,
     osProcessingError: 800, userReadingError: 1600, themeSwapDelay: 600,
     nameRevealDelay: 400, typeSpeedName: 70
 };
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
         await typeCommand('#typed-name', "Moti Abebe", TIMING.typeSpeedName, true);
 
         DOM.skipBtn.classList.add('d-none');
-        await delay(500);
+        await delay(700);
         DOM.introActions.classList.replace('opacity-0', 'opacity-100');
     };
 
