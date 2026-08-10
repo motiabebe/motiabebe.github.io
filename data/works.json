@@ -1,6 +1,25 @@
 {
     "projects": [
         {
+            "title": "EDR Seats",
+            "category": "Transport",
+            "date": "August 2026",
+            "description": "Live seat availability checker for the Ethiopia-Djibouti Railway, showing real-time seat counts, class, and pricing before you book. Available in 7 languages.",
+            "tech": [
+                "HTML/CSS",
+                "JS",
+                "Telegram Mini Apps"
+            ],
+            "statusNote": "Note: Unofficial, not affiliated with EDR.",
+            "links": {
+                "primary": {
+                    "url": "https://t.me/EDRSeatsBot/check",
+                    "text": "Open App"
+                }
+            },
+            "featured": false
+        },
+        {
             "title": "Ticker.et",
             "category": "FinTech",
             "date": "March 2026",
@@ -88,7 +107,7 @@
         },
         {
             "title": "Tariff",
-            "category": "Utility",
+            "category": "Transport",
             "date": "April 2024",
             "lastUpdated": "March 2026",
             "description": "A user-friendly platform for comparing ride-hailing services. Offers a simple and efficient way to find the best ride options in Ethiopia.",
