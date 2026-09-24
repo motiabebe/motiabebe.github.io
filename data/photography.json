@@ -1,7 +1,7 @@
 {
     "summary": {
-        "totalViews": "2.5M+",
-        "totalDownloads": "18.5K+",
+        "totalViews": "5M+",
+        "totalDownloads": "30K+",
         "platform": "Unsplash",
         "profileUrl": "https://unsplash.com/@thatboymoti"
     },
@@ -9,6 +9,18 @@
         {
             "name": "Cambridge Enterprise",
             "logo": "assets/img/logos/cambridge_enterprise.svg"
+        },
+        {
+            "name": "UN-HABITAT",
+            "logo": "assets/img/logos/unhabitat.svg"
+        },
+        {
+            "name": "Planet Partnerships",
+            "logo": "assets/img/logos/planet_partnerships.svg"
+        },
+        {
+            "name": "The Travel",
+            "logo": "assets/img/logos/the_travel.png"
         },
         {
             "name": "Techcabal",
